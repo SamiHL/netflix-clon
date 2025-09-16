@@ -1,7 +1,6 @@
 import bcrypt from 'bcryptjs'
 import { NextResponse } from 'next/server'
 import { db } from '@/lib/db'
-import { get } from 'http';
 import { getUserbyEmail } from '../../../../../data/user';
 
 export async function POST(request:Request) {

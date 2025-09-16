@@ -13,7 +13,7 @@ export function TrendingMovies(props: TrendingMoviesProps) {
 
       <div>
         <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-4">
-          {movies.map((movie, idx) => (
+          {movies.map((movie) => (
             <div
               key={movie.id}
               className="cursor-pointer transition delay-300 hover:h-[14vh] group relative"
